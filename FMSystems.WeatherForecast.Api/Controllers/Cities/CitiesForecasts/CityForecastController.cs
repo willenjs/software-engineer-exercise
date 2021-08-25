@@ -35,7 +35,7 @@ namespace FMSystems.WeatherForecast.Api.Controllers.Cities.CitiesForecast
         }
 
         /// <summary>
-        /// Returns the forecast for a given city id or 404 case it doesn't exist.
+        /// Returns the forecast for a given city id or 404 in case it doesn't exist.
         /// </summary>
         /// <param name="cityId">the city id.</param>
         /// <param name="date">the date or 07/04/2018 at noon if nothing is passed.</param>
